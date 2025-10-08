@@ -62,7 +62,6 @@ modules:
       - type: archive
         url: https://github.com/glide-browser/glide/releases/download/0.1.51a/glide.linux-x86_64.tar.xz
         sha256: 790f22b67f17bc536e2f2a4aaee4cba56cb30ebf3df652d3301537c8dfb219e5
-        strip-components: 0
         only-arches:
           - x86_64
         x-checker-data:
@@ -74,7 +73,6 @@ modules:
       - type: archive
         url: https://github.com/glide-browser/glide/releases/download/0.1.51a/glide.linux-aarch64.tar.xz
         sha256: 7b137a54971c865a82ebe16b94a0cd0e9281b152dd18c28dd65e2e60cecc9479
-        strip-components: 0
         only-arches:
           - aarch64
         x-checker-data:
@@ -85,7 +83,6 @@ modules:
           is-main-source: true
       - type: dir
         path: .
-        strip-components: 0
         dest: metadata
 
       # - type: archive
