@@ -54,8 +54,6 @@ modules:
       - install -Dm0644 metadata/${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -Dm0644 metadata/${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
-      - ls -al /app
-
     sources:
       - type: archive
         url: https://github.com/glide-browser/glide/releases/download/0.1.51a/glide.linux-x86_64.tar.xz
