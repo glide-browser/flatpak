@@ -39,11 +39,11 @@ modules:
   - name: glide
     buildsystem: simple
     build-commands:
-      - install -Dm0644 glide/browser/chrome/icons/default/default16.png ${FLATPAK_DEST}/share/icons/hicolor/16x16/${FLATPAK_ID}.png
-      - install -Dm0644 glide/browser/chrome/icons/default/default32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/${FLATPAK_ID}.png
-      - install -Dm0644 glide/browser/chrome/icons/default/default48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/${FLATPAK_ID}.png
-      - install -Dm0644 glide/browser/chrome/icons/default/default64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/${FLATPAK_ID}.png
-      - install -Dm0644 glide/browser/chrome/icons/default/default128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/${FLATPAK_ID}.png
+      - install -Dm0644 glide/browser/chrome/icons/default/default16.png ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps/${FLATPAK_ID}.png
+      - install -Dm0644 glide/browser/chrome/icons/default/default32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/${FLATPAK_ID}.png
+      - install -Dm0644 glide/browser/chrome/icons/default/default48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png
+      - install -Dm0644 glide/browser/chrome/icons/default/default64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
+      - install -Dm0644 glide/browser/chrome/icons/default/default128.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
 
       - mv glide /app/
       - mkdir -p /app/lib/ffmpeg
