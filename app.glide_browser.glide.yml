@@ -72,7 +72,7 @@ modules:
           url-query: .assets[] | select(.name=="glide.linux-x86_64.tar.xz") | .browser_download_url
           is-main-source: true
       - type: archive
-        url: https://github.com/glide-browser/glide/releases/download/0.1.51a/glide.linux-xaarch64.tar.xz
+        url: https://github.com/glide-browser/glide/releases/download/0.1.51a/glide.linux-aarch64.tar.xz
         sha256: 7b137a54971c865a82ebe16b94a0cd0e9281b152dd18c28dd65e2e60cecc9479
         strip-components: 0
         only-arches:
