@@ -10,8 +10,6 @@ add-extensions:
     version: "25.08"
     add-ld-path: .
     no-autodownload: true
-
-  # TODO WTH is this
   app.glide_browser.glide.systemconfig:
     directory: etc/glide
     no-autodownload: true
@@ -84,9 +82,3 @@ modules:
       - type: dir
         path: .
         dest: metadata
-
-      # - type: archive
-      #   url: https://github.com/glide-browser/flatpak/releases/download/0.1.51a/archive.tar.xz
-      #   sha256:
-      #   strip-components: 0
-      #   dest: metadata
